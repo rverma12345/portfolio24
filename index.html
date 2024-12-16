@@ -10,121 +10,129 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="script.js"></script>
   </head>
-    <body>
-	  
-        <div class="container">
-	  
-		<!--────────────────Header───────────────-->
-	<header>
-		<a class="logo" href="#home">
-              <img src="https://newsletter-images--timmy-i-chen.repl.co/logo-light.png" alt="repl logo" />
-		</a>
-		<nav>	
-		 <ul class="nav-bar"><div class="bg"></div>
-			<li><a class="nav-link active" href="#home">Home</a></li>
-			<li><a class="nav-link" href="#projects">Projects</a></li>
-			<li><a class="nav-link" href="#contact">Contact</a></li>
-		 </ul>
-			
-			<div class="hamburger">
-				<div class="line1"></div>
-            <div class="line2"></div>
-				<div class="line3"></div>
-			</div>
-		</nav>
-	</header>
-	<main>
-		<!--─────────────────Home────────────────-->
-	  <div id="home">
-		 <div class="filter"></div>
-		 <section class="intro">
-		  <h3>Raghav Verma<hr></h3>
-		  <p>I am a senior at Vernon Hills High School and I plan on going to college for Data Science next year. As I went through the college admissions process I found it hard to create a list of schools that I wanted to apply to. For this reason, I created a website that seniors can use to find a college that fits them. </p>
-          
-			  
-		  <!--────social media links─────-->
-			 
-		  <div class="social-media">
-			  <a href="#" target="_blank"><i class='fab fa-codepen'></i></a>
-			  <a href="#" target="_blank"><i class='fab fa-twitter'></i></a>
-			  <a href="#" target="_blank"><i class='fab fa-github'></i></a>
-			  <a href="#" target="_blank"><i class='fab fa-linkedin-in'></i></a>
-			  <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-		    </div>
-			 
-		 </section> 
-	  </div>  
-		
-	  <!--───────────────Projects───────────────-->
-	  <div id="projects"> 
-		 <h3>Demonstrations<hr></h3>
-		  <p>Here are some images and videos of my project</p>
-		  <div class="work-box">
-		  <div class="work">
-		<!--───────────────card───────────────-->
-			<div class="card">
-			    <img class="work-img" src="map.png">
-			    <a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">Every school that a user selects, an interactive map with a pin is shared.</div></a>
-            </div>
-			<div class="card">
-			    <img class="work-img" src="spreadsheet.png">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">Spreadsheet where data is pulled from.</div></a>
-							</div>
-							<div class="card">
-									<video class="work-img" controls>
-											<source src="video.mp4" type="video/mp4">
-											Your browser does not support the video tag.
-									</video>
-									<div class="work-content">Video</div>
-							</div>
-							<div class="card">
-			    <img class="work-img" src="search.png">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content"></div> The search shows relevant results</a>
-            </div> 
-			<div class="card">
-			    <img class="work-img" src="choose.png">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">You can favorite colleges and choose what level they are for you</div></a>
-            </div>
-			<div class="card">
-			    <img class="work-img" src="60144316a7c0c4001991dde6.webp">
-				<a href="https://rverma12345.github.io/2024project/" target="_blank"> <!--Link to project-->
-				<div class="work-content">Project</div></a>
-            </div> 	  
-		  </div>
-		  </div>
-	  </div>
-		 
-		<!--──────────────Contact────────────────-->
-	  <div id="contact">
-		  <!--────social media links─────-->
-		   <h3>About Me.<hr></h3>
-		   <p>I'm really into statistics and computer science and want to use them to solve real-world problems. My goal is to use data and technology to make better decisions and improve how things work. I'm excited to keep learning and make a difference in both school projects and future opportunities.</p>
-          <h3>Project Planning / Mentorship<hr></h3>
-          <p>I had struggles finding colleges as I was going through the admissions process so I decided to make a website so it is easier for other students. At first I had issues with finding an API to use for tuition costs because of limited data, but I found a new source that I will implement soon. I used AI to pull some info and used leaflet for the map. My mentor helped me through providing me resources to refine my project such as spreadsheets, APIs and videos.</p>
-		    <div class="social-media">
-			  <a href="#" target="_blank"><i class='fab fa-codepen'></i></a>
-			  <a href="#" target="_blank"><i class='fab fa-twitter'></i></a>
-			  <a href="#" target="_blank"><i class='fab fa-github'></i></a>
-			  <a href="#" target="_blank"><i class='fab fa-linkedin-in'></i></a>
-			  <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-		    </div>
-		  </div>
+  <body>
+    <div class="container">
+      <!--────────────────Header───────────────-->
+      <header>
+        <a class="logo" href="#home">
+          <img src="https://newsletter-images--timmy-i-chen.repl.co/logo-light.png" alt="repl logo" />
+        </a>
+        <nav>  
+          <ul class="nav-bar"><div class="bg"></div>
+            <li><a class="nav-link active" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
 
-	</main>
-	  <footer class="copyright">© 2020 
-		  <a href="https://repl.it/@lilykhan" target="_blank"> Lilykhan.</a>
-     </footer>
-	  
-  </div>
-  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>  
+          <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <!--─────────────────Home────────────────-->
+        <div id="home">
+          <div class="filter"></div>
+          <section class="intro">
+            <h3>Raghav Verma<hr></h3>
+            <p>I am a senior at Vernon Hills High School and I plan on going to college for Data Science next year. As I went through the college admissions process I found it hard to create a list of schools that I wanted to apply to. For this reason, I created a website that seniors can use to find a college that fits them.</p>
+
+            <!--────social media links─────-->
+            <div class="social-media">
+              <a href="#" target="_blank"><i class='fab fa-codepen'></i></a>
+              <a href="#" target="_blank"><i class='fab fa-twitter'></i></a>
+              <a href="#" target="_blank"><i class='fab fa-github'></i></a>
+              <a href="#" target="_blank"><i class='fab fa-linkedin-in'></i></a>
+              <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+          </section> 
+        </div>  
+
+        <!--───────────────Projects───────────────-->
+        <div id="projects"> 
+          <h3>Demonstrations<hr></h3>
+          <p>Here are some images and videos of my project</p>
+          <div class="work-box">
+            <div class="work">
+              <!--───────────────card───────────────-->
+              <div class="media-item">
+                <img src="images/map.png" alt="Interactive Map">
+                <a href="#" target="_blank">
+                  <div class="work-content">Every school that a user selects, an interactive map with a pin is shared.</div>
+                </a>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="card">
+                <img class="work-img" src="images/spreadsheet.png" alt="Spreadsheet Data">
+                <a href="#" target="_blank">
+                  <div class="work-content">Spreadsheet where data is pulled from.</div>
+                </a>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="card">
+                <img class="work-img" src="images/video.png" alt="Project Video">
+                <a href="https://www.veed.io/view/25ae1adc-b6ad-49fd-ab16-0abf0d1f4dbe" target="_blank">
+                  <div class="work-content">Video</div>
+                </a>
+              </div>
+
+              <!-- Card 4 -->
+              <div class="card">
+                <img class="work-img" src="images/search.png" alt="Search Results">
+                <a href="#" target="_blank">
+                  <div class="work-content">The search shows relevant results</div>
+                </a>
+              </div>
+
+              <!-- Card 5 -->
+              <div class="card">
+                <img class="work-img" src="images/choose.png" alt="Choose Favorite">
+                <a href="#" target="_blank">
+                  <div class="work-content">You can favorite colleges and choose what level they are for you</div>
+                </a>
+              </div>
+
+              <!-- Card 6 -->
+              <div class="card">
+                <img class="work-img" src="images/60144316a7c0c4001991dde6.webp" alt="Project Example">
+                <a href="https://8ae5f002-b7ff-42dc-af3a-515d5d100414-00-h0fyppqo8m7m.worf.replit.dev/" target="_blank">
+                  <div class="work-content">Project</div>
+                </a>
+              </div>  
+            </div>
+          </div>
+        </div>
+
+        <!--──────────────Contact────────────────-->
+        <div id="contact">
+          <h3>About Me.<hr></h3>
+          <p>I'm really into statistics and computer science and want to use them to solve real-world problems. My goal is to use data and technology to make better decisions and improve how things work. I'm excited to keep learning and make a difference in both school projects and future opportunities.</p>
+          <h3>Project Planning / Mentorship<hr></h3>
+          <p>I had struggles finding colleges as I was going through the admissions process so I decided to make a website so it is easier for other students. At first I had issues with finding an API to use for tuition costs because of limited data, but I found a new source that I will implement soon. I used AI to pull some info and used leaflet for the map. My mentor helped me through providing me resources to refine my project such as spreadsheets, APIs, and videos.</p>
+          
+          <div class="social-media">
+            <a href="#" target="_blank"><i class='fab fa-codepen'></i></a>
+            <a href="#" target="_blank"><i class='fab fa-twitter'></i></a>
+            <a href="#" target="_blank"><i class='fab fa-github'></i></a>
+            <a href="#" target="_blank"><i class='fab fa-linkedin-in'></i></a>
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+      </main>
+
+      <footer class="copyright">© 2020 
+        <a href="https://repl.it/@lilykhan" target="_blank"> Lilykhan.</a>
+      </footer>
+
+    </div>
+
+    <!-- This script places a badge on your repl's full-browser view back to your repl's cover page -->
+    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>  
   </body>
 </html>
