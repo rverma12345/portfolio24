@@ -424,21 +424,17 @@ hr {
 
 /* New styles for development images */
 .development-images {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 40px auto; /* Updated for center alignment */
-  max-width: 800px; /* Added max-width for better alignment */
+    display: flex;            /* Align images horizontally */
+    justify-content: center;  /* Center the images */
+    gap: 20px;                /* Add space between the images */
 }
 
 .dev-img {
-  width: 30%;
-  max-width: 250px;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  transition: transform 0.3s ease;
+    max-width: 100%;          /* Ensure images fit within their container */
+    height: auto;             /* Maintain aspect ratio */
+    border-radius: 10px;      /* Optional: adds rounded corners */
 }
+
 
 .dev-img:hover {
   transform: scale(1.05);
